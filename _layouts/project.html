@@ -1,0 +1,62 @@
+---
+layout: page
+---
+
+{% include head.html %}
+
+<header>
+  <nav>
+    <a href="/" class="mainlogo home"><span>Blueverve</span></a>
+    <ul>
+      <li><a href="/"><span>Home</span></a></li>
+      <li><a href="/approach/"><span>Our Approach</span></a></li>
+      <li><a href="/process/"><span>Process</span></a></li>
+      <li><a href="/portfolio/"><span>Portfolio</span></a></li>
+      <li><a href="/team/"><span>Team</span></a></li>
+      <li><a href="/blog/"><span>Blog</span></a></li>
+      <li class="contact"><a href="/contact/"><span>Contact Us</span></a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="innersuperband projects">
+  <div class="container">
+
+    <div class="sixteen columns sellband">
+      <h1 class="green">{{ page.title }}</h1>
+      <h3>{{ page.description }}</h3>
+    </div>
+
+  </div>
+</div>
+
+<div class="innerband">
+  <div class="container">
+
+    <div class="five columns">
+      {% if page.website %}
+      <h5>Client Website</h5>
+      <h5><a href="{{ page.website }}" class="openme">{{ page.website }}</a></h5>
+      <hr>
+      {% endif %}
+      <h5>The Problem</h5>
+      <p>{{ page.project_problem }}</p>
+      <hr>
+      <h5>The Solution</h5>
+      <p>{{ page.project_solution }}</p>
+    </div>
+
+    <div class="ten columns offset-by-one projectimage">
+      <a href="{{ page.image.url }}"><img src="{{ page.image.url }}" title="{{ page.image.title }}" alt="{{ page.image.alt }}" /></a>
+    </div>
+
+  </div>
+</div>
+
+
+{% include learnmore.html %}
+
+{% include footer.html %}
+
+
+

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>Blue Verve | Responsive is more than just resizing elements</title>
+  <meta name="description" content="Blue Verve is an online software and app development service company. We provide design, development and research services for startups, entrepreneurs and small teams.">
+  <meta name="author" content="Blue Verve | Rami James">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" href="/stylesheets/base.css">
+  <link rel="stylesheet" href="/stylesheets/skeleton.css">
+  <link rel="stylesheet" href="/stylesheets/blueverve.css">
+  <link rel="stylesheet" href="/stylesheets/layout.css">
+  <link rel="stylesheet" href="/stylesheets/github.css">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-43828354-3', 'blueverve.com');
+    ga('send', 'pageview');
+
+  </script>
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Favicons
+  ================================================== -->
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png">
+
+</head>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<header>
+  <nav>
+    <a href="/" class="mainlogo home"><span>Blueverve</span></a>
+    <ul>
+      <li><a href="/"><span>Home</span></a></li>
+      <li><a href="/approach/"><span>Our Approach</span></a></li>
+      <li><a href="/process/"><span>Process</span></a></li>
+      <li><a href="/portfolio/"><span>Portfolio</span></a></li>
+      <li><a href="/team/"><span>Team</span></a></li>
+      <li><a href="/blog/"><span>Blog</span></a></li>
+      <li class="contact"><a href="/contact/"><span>Contact Us</span></a></li>
+    </ul>
+  </nav>
+</header>
+
+  <div class="innersuperband ourvision">
+    <div class="container">
+
+      <div class="sixteen columns sellband">
+        <h1 class="green">Responsive is more than just resizing elements</h1>
+        <h4>Written by Rami James | Published on 23 Oct 2013</h4>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="innerband">
+    <div class="container">
+
+      <div class="ten columns">
+        <h1 id='not_all_elements_are_created_equal'>Not all elements are created equal</h1>
+
+<h2 id='we_live_in_a_complex_technological_world_in_which_we_surround_ourselves_with_many_types_of_devices_which_have_different_pixel_densities_dimensions_and_physical_sizes'>We live in a complex technological world in which we surround ourselves with many types of devices which have different pixel densities, dimensions, and physical sizes.</h2>
+
+<h2 id='this_means_that_the_content_we_produce_for_it_to_be_truly_responsive_it_needs_to_both_be_flexible_visually_and_flexible_functionally'>This means that the content we produce, for it to be truly responsive, it needs to both be flexible visually and flexible functionally.</h2>
+<img class='blogimage' src='/images/responsive.jpg' />
+<h2 id='what_this_means_for_forms_buttons_and_menus'>What this means for forms, buttons, and menus</h2>
+
+<p>There is no getting around the fact that fingers are very different pointing devices than a mouse cursor. The sizes and positioning of buttons needs to be more central and larger. The smaller a screen gets, the harder it is to hit a small, clickable area. Larger, less pixel-dense screens like computers and laptops can get away with having a tiny link be clickable for an important functional element (logout, etc.). This does not work on small screens like an iPhone.</p>
+<img class='blogimage' src='/images/buttons.jpg' />
+<p>Menus must be made simpler and they must fit within the constraints of the screen they are shown on. For simple menus with eight or so elements, which is common in a &#8220;brochure&#8221; website, it is fine to lay them all out and have a two-click scenario. One click to access the menu, one to select the menu item. What happens when you have a shopping website which has ten top-level items, each having twenty secondary level items and some of those have third-level items? You have to come up with flexible and intuitive solutions which you don&#8217;t have access to on mobile devices and on tablets. This means that drop-downs are off-limits and certainly child-based drop-downs.</p>
+
+<h2 id='what_this_means_for_layouts'>What this means for layouts</h2>
+
+<p>For layouts, the common solution (which is also generally implemented in grid-systems like bootstrap and skeleton, et al) is to have all columns collapse into one column which the user then scrolls through vertically. This is a generally good generic solution, but has a few caveats that I should talk about.</p>
+
+<p>The first is, of course, that not all content is equal. A mobile user has constraints such as slower connections, smaller screens, and most importantly less mental space to filter through &#8220;junk&#8221; content. When a user comes to a blog, for example, it is very likely that they will read through the single post, but much less likely that they will click on the side articles (which are now at the bottom of the page in a single column site). This means we made them load all that content and functionality for nothing. Things like secondary footers, non-critical side-content, and complex imagery should be hidden from mobile users on phones. Tablets is more of a grey area which needs to be considered carefully for each situation.</p>
+
+<h2 id='testing_testing_testing'>Testing, testing, testing!</h2>
+
+<p>The best way to get a feel for responsive design, both for websites and for applications, is to test them on many devices and device-orientations. Tested it on iPhone? Did you test both portrait and landscape mode? iPad? Android? Old laptop computer with 1024x800 screen (it&#8217;s smaller than a tablet!)?</p>
+
+<p>There are many, many constraints and it really feels like a juggling act sometimes. A very good responsive site isn&#8217;t just twice the work of a regular site. I would estimate it at least four times!</p>
+
+<p>I guess that&#8217;s why they say, practice makes perfect.</p>
+      </div>
+
+      <div class="five columns offset-by-one">
+        
+        
+        
+        
+          <h2>2013</h2>
+        
+        <ul class="postlist">
+          <li>
+            <a href="/2013/10/23/responsive-design-is-more-than-resizing-elements.html">Responsive is more than just resizing elements</a>
+          </li>
+        </ul>
+      
+        
+        
+        
+        <ul class="postlist">
+          <li>
+            <a href="/2013/10/22/tools-of-the-trade.html">Tools of the trade</a>
+          </li>
+        </ul>
+      
+        
+        
+        
+        <ul class="postlist">
+          <li>
+            <a href="/2013/10/18/creating-a-jekyll-powered-site.html">Creating a Jekyll Powered Site</a>
+          </li>
+        </ul>
+      
+      </div>
+
+      <hr class="line">
+
+      <div class="eight columns">
+        
+        <a href="/2013/10/22/tools-of-the-trade.html" title="Previous Post: Tools of the trade" class="hello" style="float:left;">Previous Post</a>
+        
+        <p></p>
+      </div>
+      <div class="eight columns">
+      
+      </div>
+
+      <hr>
+
+    </div>
+  </div>
+
+
+
+  <div class="footerband">
+
+    <div class="container">
+      <div class="eleven columns">
+        <ul class="bottomnav">
+          <li><a href="/"><span>Home</span></a></li>
+          <li><a href="/approach/"><span>Our Approach</span></a></li>
+          <li><a href="/process/"><span>Process</span></a></li>
+          <li><a href="/portfolio/"><span>Portfolio</span></a></li>
+          <li><a href="/team/"><span>Team</span></a></li>
+          <li><a href="/contact/"><span class="green">Start your Project</span></a></li>
+        </ul>
+      </div>
+      <div class="five columns">
+        <p class="copyright">Created with <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://www.getskeleton.com/">Skeleton</a><br>Blue Verve © 2013</p>
+      </div>
+    </div><!-- container -->
+
+  </div>
+
+
+<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+
+<!-- Javascript
+  ================================================== -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/js/modernizr.js"></script>
+  <script src="/js/jquery.meanmenu.min.js"></script> 
+  <script>
+    jQuery(document).ready(function () {
+        jQuery('header nav').meanmenu();
+    });
+  </script>
+
+</body>
+</html>

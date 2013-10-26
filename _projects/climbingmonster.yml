@@ -1,0 +1,29 @@
+description:
+  Climbing Monster brings modern, smart training algorithms to the palm of your hand.
+endorsements:
+-
+  body:
+    
+  from: 
+  role: 
+    Design
+  approach: 
+    
+image:
+  url: /images/climbingmonster_work.jpg
+  title: 
+  alt: 
+layout: project
+project_description:
+  Proin mattis tristique sapien tempus congue. Nulla feugiat sapien at quam rhoncus iaculis. Ut dignissim in diam sit amet pellentesque. Suspendisse potenti. Mauris vehicula fermentum ligula, at iaculis nisl sollicitudin ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel imperdiet odio. Ut convallis turpis et pellentesque pulvinar. Fusce eu neque vehicula, molestie nibh sit amet, suscipit elit. Proin eu mattis elit, faucibus fermentum elit. Suspendisse vitae lacinia dui. Maecenas eget adipiscing ligula, vel mollis tortor. Donec in magna leo. 
+project_problem:
+  '<p>Climbers are still building their training schedules using pen and paper, excel or nothing at all.
+  <p>The goal is to develop a usable and flexible platform for both manual and automatic training of climbers who train in a gym environment.'
+project_solution:
+  '<p>We developed a series of prototypes which allowed us to quickly iterate in a gym environment. These prototypes were refined over time.
+  <p>The end product is an easy to use, beautiful and elegant solution for climbers to up their abilities in an organized way.'
+published: true
+short:     This is a sample short description.
+title:     Climbing Monster
+class:     climbingmonster
+website:   

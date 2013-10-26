@@ -1,0 +1,33 @@
+description:
+  Suspendisse vitae lacinia dui. Maecenas eget adipiscing ligula, vel mollis tortor. Donec in magna leo. 
+endorsements:
+-
+  body:
+    
+  from: 
+  role: 
+    Design Strategy,Experience Design
+  approach: 
+    Competitive Analysis, Audit,Stakeholder Interviews,Personas,Key User Scenarios,Storyboards,Concept Skethbooks,Prototype,Usability Testing,Implementation Support
+image:
+  url: /images/uskape_work.jpg
+  title: 
+  alt: 
+layout: project
+project_description:
+  Proin mattis tristique sapien tempus congue. Nulla feugiat sapien at quam rhoncus iaculis. Ut dignissim in diam sit amet pellentesque. Suspendisse potenti. Mauris vehicula fermentum ligula, at iaculis nisl sollicitudin ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel imperdiet odio. Ut convallis turpis et pellentesque pulvinar. Fusce eu neque vehicula, molestie nibh sit amet, suscipit elit. Proin eu mattis elit, faucibus fermentum elit. Suspendisse vitae lacinia dui. Maecenas eget adipiscing ligula, vel mollis tortor. Donec in magna leo. 
+project_problem:
+  Many people needed access to all the information available in Thomson Reuters
+project_solution:
+  '<p>In financial markets, the edge is no longer in finding the best prices, but in finding the best ideas and the right people to do business with.</p>
+  
+  <p>Working with Thomson Reuters, we helped define the strategy and designed the product vision for how professionals interact with each other around unique information and ideas.</p>
+  
+  <p>Our design united a host of high-value assets, such as news, videos, prices, charts, analytics, research reports, messaging, chatrooms and trading tools, with social media tools naturally at its heart but adding the privacy controls, trust networks and compliance that is essential for professionals.</p>  
+
+  <p>We ensured the platform is scalable across sectors such as finance, legal and scientific by sharing the core principles of ‘collecting, consuming, curating and connecting’, whilst allowing for specific per-sector sophistication.</p>'
+published: true
+short:     This is a sample short description.
+title:     USkape
+class:     uskape
+website:   http://www.uskape.com/

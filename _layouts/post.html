@@ -1,0 +1,80 @@
+---
+layout: post
+sitemap:
+    priority: 1
+    changefreq: monthly
+    lastmod: 2013-10-17T12:00:00-05:00
+---
+
+
+{% include head.html %}
+
+<header>
+  <nav>
+    <a href="/" class="mainlogo home"><span>Blueverve</span></a>
+    <ul>
+      <li><a href="/"><span>Home</span></a></li>
+      <li><a href="/approach/"><span>Our Approach</span></a></li>
+      <li><a href="/process/"><span>Process</span></a></li>
+      <li><a href="/portfolio/"><span>Portfolio</span></a></li>
+      <li><a href="/team/"><span>Team</span></a></li>
+      <li><a href="/blog/"><span>Blog</span></a></li>
+      <li class="contact"><a href="/contact/"><span>Contact Us</span></a></li>
+    </ul>
+  </nav>
+</header>
+
+  <div class="innersuperband ourvision">
+    <div class="container">
+
+      <div class="sixteen columns sellband">
+        <h1 class="green">{{ page.title }}</h1>
+        <h4>Written by {{ page.author }} | Published on {{ page.date | date_to_string }}</h4>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="innerband">
+    <div class="container">
+
+      <div class="ten columns">
+        {{ content }}
+      </div>
+
+      <div class="five columns offset-by-one">
+        {% for post in site.posts %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% if year != nyear %}
+          <h2>{{ post.date | date: '%Y' }}</h2>
+        {% endif %}
+        <ul class="postlist">
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        </ul>
+      {% endfor %}
+      </div>
+
+      <hr class="line">
+
+      <div class="eight columns">
+        {% if page.previous.url %}
+        <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}" class="hello" style="float:left;">Previous Post</a>
+        {% endif %}
+        <p></p>
+      </div>
+      <div class="eight columns">
+      {% if page.next.url %}
+        <a href="{{page.next.url}}" title="next Post: {{page.next.title}}" class="hello" style="float:right;">Next Post</a>
+      {% endif %}
+      </div>
+
+      <hr>
+
+    </div>
+  </div>
+
+
+{% include footer.html %}

@@ -1,0 +1,33 @@
+description:
+  Collaboration in Professional Communities
+endorsements:
+-
+  body:
+   
+  from: 
+  role: 
+    Design Strategy,Experience Design
+  approach: 
+    Competitive Analysis, Audit,Stakeholder Interviews,Personas,Key User Scenarios,Storyboards,Concept Skethbooks,Prototype,Usability Testing,Implementation Support
+image:
+  url: /images/thomsonreuters_work.jpg
+  title: 
+  alt: 
+layout: project
+project_description:
+  Collaboration in Professional Communities
+project_problem:
+  Many people needed access to all the information available in Thomson Reuters
+project_solution:
+  '<p>In financial markets, the edge is no longer in finding the best prices, but in finding the best ideas and the right people to do business with.</p>
+  
+  <p>Working with Thomson Reuters, we helped define the strategy and designed the product vision for how professionals interact with each other around unique information and ideas.</p>
+  
+  <p>Our design united a host of high-value assets, such as news, videos, prices, charts, analytics, research reports, messaging, chatrooms and trading tools, with social media tools naturally at its heart but adding the privacy controls, trust networks and compliance that is essential for professionals.</p>  
+
+  <p>We ensured the platform is scalable across sectors such as finance, legal and scientific by sharing the core principles of ‘collecting, consuming, curating and connecting’, whilst allowing for specific per-sector sophistication.</p>'
+published: true
+short:     This is a sample short description.
+title:     Thomson Reuters Streams
+class:     thomsonreuters
+website:   http://www.thomsonreuters.com/

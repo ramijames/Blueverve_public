@@ -1,0 +1,858 @@
+.left { float:left; }
+.right { float:right; }
+.center { margin:0 auto; }
+.bang { margin:40px 0 0 0; }
+.clear { clear:both; }
+.leftalign { text-align: left !important; margin-top:-12px; }
+
+.toplogo {
+  width:200px;
+  height:60px;
+  background-image: url(../images/toplogo.png);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-indent: -999em;
+  margin-top:20px;
+  transform: translateZ(-600px) rotateX(45deg) rotateY(10deg) rotateZ(-20deg);
+}
+
+ul.postlist li {
+  list-style: square;
+  margin-left: 16px;
+  line-height: 16px;
+}
+
+.blogimage {
+  width:100%;
+  background-color: white;
+  border:1px solid rgba(0,0,0,0.12);
+  border-radius: 3px;
+  -webkit-border-radius:3px;
+  padding:10px;
+  margin:0 0 20px 0;
+}
+
+ul#contactinfo {
+  float: right;
+  margin:20px 0 0 0;
+  padding: 0;
+}
+
+    ul#contactinfo li {
+      text-align: right;
+      margin:0;
+      padding: 0;
+      clear:left;
+      height:30px;
+      line-height: 30px;
+    }
+
+
+
+.icon {
+  width:22px;
+  height:22px;
+  display: inline-block;
+  color:#00B0EC;
+  margin:0 6px 0 0;
+}
+
+.discover {
+  padding:12px 12px 12px 24px;
+  background-color: #e3443d;
+  color:white;
+}
+
+.concept {
+  padding:12px 12px 12px 24px;
+  background-color: #69CA14;
+  color:white;
+}
+
+.prototype {
+  padding:12px 12px 12px 24px;
+  background-color: #c466ff;
+  color:white;
+}
+
+.build {
+  padding:12px 12px 12px 24px;
+  background-color: #edbf1f;
+  color:white;
+}
+
+.discovertext {
+  color: #e3443d;
+}
+
+.concepttext {
+  color: #69CA14;
+}
+
+.prototypetext {
+  color: #c466ff;
+}
+
+.buildtext {
+  color: #edbf1f;
+}
+
+
+
+/*! #######################################################################
+
+  meanMenu
+  --------
+  
+  To be used with jquery.meanmenu.js by Chris Wharton (http://www.meanthemes.com/plugins/meanmenu/)
+
+####################################################################### */
+
+/* hide the link until viewport size is reached */
+a.meanmenu-reveal {
+  display: none;
+}
+
+/* when under viewport size, .mean-container is added to body */
+.mean-container .mean-bar {
+  width: 100%;
+  position: fixed;
+  background: #fff;
+  top:0px;
+  left:0px;
+  z-index: 999999;
+}
+
+.mean-container a.meanmenu-reveal {
+  width: 30px;
+  background: #fff;
+  height: 30px;
+  padding: 13px 13px 11px 13px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+  text-indent: -9999em;
+  line-height: 22px;
+  font-size: 1px;
+  display: block;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+}
+
+.mean-container a.meanmenu-reveal span {
+  display: block;
+  background: #333;
+  height: 4px;
+  margin-top: 4px;
+}
+
+.mean-container .mean-nav {
+  float: left;
+  width: 100%;
+  background: #fff;
+
+}
+
+.mean-container .mean-nav ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.mean-container .mean-nav ul li {
+  position: relative;
+  float: left;
+  width: 50%;
+}
+
+.mean-container .mean-nav ul li a {
+  display: block;
+  float: left;
+  width: 100%;
+  line-height: 42px;
+  height: 42px;
+  margin: 0;
+  text-align: left;
+  color: #333;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.mean-container .mean-nav ul li li a {
+  width: 80%;
+  padding: 1em 10%;
+  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid rgba(255,255,255,0.25);
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  text-shadow: none !important;
+  visibility: visible;
+}
+
+.mean-container .mean-nav ul li.mean-last a {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.mean-container .mean-nav ul li li li a {
+  width: 70%;
+  padding: 1em 15%;
+}
+
+.mean-container .mean-nav ul li li li li a {
+  width: 60%;
+  padding: 1em 20%;
+}
+
+.mean-container .mean-nav ul li li li li li a {
+  width: 50%;
+  padding: 1em 25%;
+}
+
+.mean-container .mean-nav ul li a:hover {
+  background: #fff;
+  background: rgba(0,0,0,0.1);
+}
+
+.mean-container .mean-nav ul li a.mean-expand {
+  width: 26px;
+  height: 26px;
+  border: none !important;
+  padding: 12px !important;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  font-weight: 700;
+}
+
+.mean-container .mean-nav ul li a.mean-expand:hover {
+  background: none;
+}
+
+.mean-container .mean-push {
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  clear: both;
+  position: fixed;
+}
+
+.mean-nav .wrapper {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Fix for box sizing on Foundation Framework etc. */
+.mean-container .mean-bar, .mean-container .mean-bar * {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+nav {
+  margin:0;
+  padding:0;
+  float:left;
+  width:100%;
+}
+
+nav ul {
+  list-style: none;
+  overflow: auto;
+}
+
+    .mainlogo {
+      float:left;
+      list-style: none;
+      overflow: auto;
+    }
+
+    nav ul li {
+      list-style: none;
+      float:left;
+      margin:28px 10px 0 0;
+      padding:0;
+    }
+
+    .mainset {
+      display: block;
+    }
+
+    .mobileset {
+      display: none;
+    }
+
+    a.home {
+      width:60px;
+      height:60px;
+      background-image: url(../images/toplogo.png);
+      background-size: 100%;
+      background-position: center center;
+      background-repeat: no-repeat;
+      text-indent: -999em;
+      border:0px;
+      float:left;
+      margin:12px 20px 0 20px;
+      padding:0px;
+      opacity: 1;
+    }
+
+    .contact {
+      float:right;
+      margin:15px 20px 20px 40px;
+      padding:10px 16px;
+      display: block;
+      background: #69CA14;
+      border-radius: 3px;
+      -webkit-border-radius:3px;
+      text-shadow: 0px 1px 0px #59A814;
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+      transition:all 0.3s;
+      -webkit-transition: all 0.3s;
+      box-shadow: 0 2px 0px #59A814;
+    }
+
+    .contact:hover {
+      background:#60BA10;
+    }
+
+        .contact a {
+          color: #fff;
+          border-bottom: 0px;
+        }
+
+        nav ul li a {
+          display: block;
+          text-decoration: none;
+          padding:4px 12px;
+          background: transparent;
+          border-radius: 3px;
+          -webkit-border-radius:3px;
+          text-shadow: 0px 0px 0px #59A814;
+          text-decoration: none;
+          text-align: center;
+          cursor: pointer;
+          transition:all 0.3s;
+          -webkit-transition: all 0.3s;
+          box-shadow: 0 0px 0px #59A814;
+          font-size: 13px;
+          text-transform: uppercase;
+        }
+
+        .selected {
+          padding:4px 12px;
+          background: #2aace3;
+          border-radius: 3px;
+          -webkit-border-radius:3px;
+          text-shadow: 0px 0px 0px #59A814;
+          text-decoration: none;
+          text-align: center;
+          cursor: pointer;
+          transition:all 0.3s;
+          -webkit-transition: all 0.3s;
+          box-shadow: 0 0px 0px #59A814;
+          color:white !important;
+        }
+
+        nav ul li a:hover {
+          padding:4px 12px;
+          background: #60BA10;
+          border-radius: 3px;
+          -webkit-border-radius:3px;
+          text-shadow: 0px 0px 0px #59A814;
+          text-decoration: none;
+          text-align: center;
+          cursor: pointer;
+          transition:all 0.3s;
+          -webkit-transition: all 0.3s;
+          box-shadow: 0 0px 0px #59A814;
+          color:white !important;
+        }
+
+
+ul.bottomnav {
+  list-style: none;
+  overflow: auto;
+}
+
+    ul.bottomnav li {
+      list-style: none;
+      float:left;
+      margin:0px 24px 0 0;
+      padding:0;
+    }
+
+
+        ul.bottomnav li a {
+          display: block;
+          text-decoration: none;
+          padding:0px 0px;
+          border-bottom: 0px solid #00B0EC;
+          opacity: 0.75;
+          color:white;
+          transition:all 0.3s;
+          -webkit-transition: all 0.3s;
+          font-weight: bold;
+        }
+
+        ul.bottomnav li a:hover {
+          opacity: 1;
+        }
+
+        .copyright {
+          text-align: right;
+          font-weight: bold;
+          color: white;
+          font-size:13px;
+        }
+
+        .green {
+          color: #7DFF00;
+        }
+
+        .blue {
+          color:#72dc0d;
+          font-weight: 400;
+        }
+
+        .400 {
+          font-weight: 400 !important;
+        }
+
+
+.band {
+  margin:0 0 100px 0;
+}
+
+    .band h1, .band h2, .band h3, .band h4, .band h5 {
+      text-align: center;
+    }
+
+.sellband {
+  margin:0 0 40px 0;
+}
+
+    .sellband h1, .sellband h2, .sellband h3, .sellband h4, .sellband h5 {
+      text-align: center;
+    }
+
+header {
+  margin:0px 0;
+  background-color: rgba(255,255,255,0.97);
+  width:100%;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid #C4CFD7;
+  z-index: 1001;
+  position: fixed;
+  height: 79px;
+  overflow: hidden;
+}
+
+.learnmoretext {
+  line-height:60px; 
+  margin:0px;
+}
+
+.whiteband {
+  margin:0px 0;
+  background-color: rgb(250,250,255);
+  width:100%;
+  padding:60px 0;
+
+}
+
+    .whiteband h1, .whiteband h2, .whiteband h3, .whiteband h4, .whiteband h5, .whiteband p {
+    }
+
+.innerband {
+  margin:0px;
+  background-color: rgb(250,250,255);
+  width:100%;
+  padding:60px 0 60px 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #C4CFD7;
+}
+
+    .innerband h1, .innerband h2, .innerband h3, .innerband h4, .innerband h5, .innerband p {
+      text-align: left;
+    }
+
+.blueband {
+  margin:0px 0;
+  background-color: #eee;
+  background-position: center center;
+  width:100%;
+  padding:80px 0;
+}
+
+.footerband {
+  margin:0px 0;
+  background-color: #122133;
+  background-position: center center;
+  width:100%;
+  padding:40px 0;
+  opacity: 0.3;
+  transition:all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+    .footerband:hover {
+      opacity: 1;
+    }
+
+
+.superband {
+  width:100%;
+  margin-top:79px;
+  padding:80px 0 40px 0;
+  border-top:1px solid white;
+  box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.35);
+  z-index: 10;
+}
+
+
+    .superband h1, .superband h2, .superband h3, .superband h4, .superband h5, .superband p {
+      text-align: left;
+      color:white;
+      font-weight: 400;
+      text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.55);
+    }
+
+.innersuperband {
+  width:100%;
+  background-color:#00ADEF;
+  margin-top:79px;
+  padding:80px 0 20px 0;
+  background-image: url("../images/innertopbg2.jpg");
+  background-size: 2200px 550px;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  border-top:1px solid white;
+  box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.35);
+  z-index: 10;
+}
+
+    .innersuperband h1, .innersuperband h2, .innersuperband h3, .innersuperband h4, .innersuperband h5, .innersuperband p {
+      text-align: left;
+      color:white;
+      font-weight: 400;
+      text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.55);
+    }
+
+.services { background-image: url("../images/innertopbg2_services.jpg"); }
+.ourvision { background-image: url("../images/innertopbg2_ourvision.jpg"); }
+.projects { background-image: url("../images/innertopbg2_projects.jpg"); }
+.customers { background-image: url("../images/innertopbg2_customers.jpg"); }
+
+.projectimage img { 
+    width:100%; margin-top:-120px;
+    border-radius: 6px;
+    -webkit-border-radius:6px;
+    transition:all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.25);
+    opacity: 1;
+  }
+
+.box {
+  width:100%;
+  height:180px;
+  display: block;
+  background-image: url("../images/none.png");
+  background-position: center center;
+  background-color: rgba(255,255,255,0.95);
+  border-radius: 3px;
+  border:1px solid rgba(255,255,255,0.6);
+  -webkit-border-radius:3px;
+  position: relative;
+  margin:0 0 20px 0;
+  cursor: pointer;
+  transition:all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.25);
+}
+
+.approach1box {
+  width:100%;
+  height:600px;
+  display: block;
+  background-image: url("../images/approach-01.png");
+  background-position: center;
+  position: relative;
+}
+
+.approach2box {
+  width:100%;
+  height:600px;
+  display: block;
+  background-image: url("../images/approach-02.png");
+  background-position: center;
+  position: relative;
+}
+
+.approach3box {
+  width:100%;
+  height:600px;
+  display: block;
+  background-image: url("../images/approach-03.png");
+  background-position: center;
+  position: relative;
+}
+
+.sunnybox {
+  width:100%;
+  height:270px;
+  display: block;
+  background-image: url("../images/profile-01.jpg");
+  background-position: center center;
+  background-color: rgba(255,255,255,0.95);
+  border-radius: 3px;
+  -webkit-border-radius:3px;
+  position: relative;
+  margin:0 0 20px 0;
+  cursor: pointer;
+  transition:all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.25);
+  background-position: bottom left;
+}
+
+.ramibox {
+  width:100%;
+  height:270px;
+  display: block;
+  background-image: url("../images/profile-02.jpg");
+  background-position: center center;
+  background-color: rgba(255,255,255,0.95);
+  border-radius: 3px;
+  -webkit-border-radius:3px;
+  position: relative;
+  margin:0 0 20px 0;
+  cursor: pointer;
+  transition:all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.25);
+  background-position: top left;
+}
+
+.vovabox {
+  width:100%;
+  height:270px;
+  display: block;
+  background-image: url("../images/profile-03.jpg");
+  background-position: center center;
+  background-color: rgba(255,255,255,0.95);
+  border-radius: 3px;
+  -webkit-border-radius:3px;
+  position: relative;
+  margin:0 0 20px 0;
+  cursor: pointer;
+  transition:all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.25);
+  background-position: top right;
+}
+
+.discoverbox {
+  width:100%;
+  height:180px;
+  display: block;
+  background-image: url("../images/discover.png");
+  background-position: center center;
+  background-color: rgba(255,255,255,0.95);
+  border-radius: 3px;
+  border:1px solid rgba(255,255,255,0.6);
+  -webkit-border-radius:3px;
+  position: relative;
+  margin:0 0 20px 0;
+  cursor: pointer;
+  transition:all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.25);
+}
+
+.definebox {
+  width:100%;
+  height:180px;
+  display: block;
+  background-image: url("../images/define.png");
+  background-position: center center;
+  background-color: rgba(255,255,255,0.95);
+  border-radius: 3px;
+  border:1px solid rgba(255,255,255,0.6);
+  -webkit-border-radius:3px;
+  position: relative;
+  margin:0 0 20px 0;
+  cursor: pointer;
+  transition:all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.25);
+}
+
+.deliverbox {
+  width:100%;
+  height:180px;
+  display: block;
+  background-image: url("../images/deliver.png");
+  background-position: center center;
+  background-color: rgba(255,255,255,0.95);
+  border-radius: 3px;
+  border:1px solid rgba(255,255,255,0.6);
+  -webkit-border-radius:3px;
+  position: relative;
+  margin:0 0 20px 0;
+  cursor: pointer;
+  transition:all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.25);
+}
+
+.projectbox {
+  width:100%;
+  height:220px;
+  display: block;
+  background-color: #fff;
+  border-radius: 3px;
+  -webkit-border-radius:3px;
+  position: relative;
+  margin:0 0 20px 0;
+  cursor: pointer;
+  transition:all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.25);
+  opacity: 1;
+}
+
+.projectbox:hover {
+  border-radius: 3px;
+  -webkit-border-radius:3px;
+  position: relative;
+  margin:0 0 20px 0;
+  background-size: fixed;
+  transition:all 0.25s;
+  -webkit-transition: all 0.25s;
+  opacity: 0.9;
+}
+
+    .projectbox .caption {
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      width:90%;
+      padding:0 5% 0 5%;
+      height: 40px;
+      background-color:white;
+      line-height: 40px;
+      color: #181818;
+      overflow: hidden;
+      text-transform: uppercase;
+      font-weight: bolder;
+      box-shadow: 0px 1px 0px rgba(0,0,0,0.15);
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .tabtale {
+      background-image: url(../images/tabtale.jpg);
+      background-position: center center;
+      background-size: fixed;
+      transition:all 0.5s;
+      -webkit-transition: all 0.5s;
+    }
+
+    .takes {
+      background-image: url(../images/takes.jpg);
+      background-position: center center;
+      background-size: fixed;
+      transition:all 0.5s;
+      -webkit-transition: all 0.5s;
+    }
+
+    .thomsonreuters {
+      background-image: url(../images/thomsonreuters.jpg);
+      background-position: center center;
+      background-size: fixed;
+      transition:all 0.5s;
+      -webkit-transition: all 0.5s;
+    }
+
+    .climbingmonster {
+      background-image: url(../images/climbingmonster.jpg);
+      background-position: center center;
+      background-size: fixed;
+      transition:all 0.5s;
+      -webkit-transition: all 0.5s;
+    }
+
+    .uskape {
+      background-image: url(../images/uskape.jpg);
+      background-position: center center;
+      background-size: fixed;
+      transition:all 0.5s;
+      -webkit-transition: all 0.5s;
+    }
+
+.hello {
+  display: block;
+  width:200px;
+  height: 60px;
+  line-height: 60px;
+  float:right;
+  background: #69CA14;
+  border-radius: 3px;
+  -webkit-border-radius:3px;
+  color: #fff !important;
+  text-shadow: 0px 1px 0px #59A814;
+  text-decoration: none;
+  text-align: center;
+  font-size:18px;
+  cursor: pointer;
+  margin:0px auto;
+  transition:all 0.3s;
+  -webkit-transition: all 0.3s;
+  box-shadow: 0 2px 0px #59A814;
+}
+
+.hello:hover {
+  background:#60BA10;
+  color:white;
+}
+
+.mainhello {
+  display: block;
+  width:260px;
+  height: 80px;
+  line-height: 80px;
+  background: #69CA14;
+  border-radius: 3px;
+  -webkit-border-radius:3px;
+  color: #fff;
+  text-shadow: 0px 1px 0px #59A814;
+  text-decoration: none;
+  text-align: center;
+  font-size:24px;
+  cursor: pointer;
+  margin:30px 0;
+  transition:all 0.3s;
+  -webkit-transition: all 0.3s;
+  box-shadow: 0 2px 0px #59A814;
+}
+
+.mainhello:hover {
+  background:#60BA10;
+  color:white;
+}

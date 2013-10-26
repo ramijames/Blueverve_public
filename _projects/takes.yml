@@ -1,0 +1,25 @@
+description:
+  "The Takes camera app allows users to shoot daily photos which Takes automatically brings to life instantly in candid, real-life video. You can then spice these up with filters, matching music and sharing your experience with your friends."
+endorsements:
+-
+  body:
+    
+  from: 
+  role: 
+image:
+  url: /images/takes_work.jpg
+  title: 
+  alt: 
+layout: project
+project_description:
+  "The Takes camera app allows users to shoot daily photos which Takes automatically brings to life in candid, real-life video. You can then spice these up with filters, matching music and sharing your experience with your friends."
+project_problem:
+  "<p>There were many small workflow problems in the Takes app, which made it difficult for the user to complete the entire flow as was needed."
+project_solution:
+  "<p>We broke down the app requirements into small problems which were easily tackled. The introduction explanation helped the users become acquainted with the unique features of the app. The tweaks to the stream and the share screen allowed the users easier access to the functionality which they wanted.
+  <p>In addition to work done on the app itself, Blue Verve provided branding upgrades, marketing materials and a one-page marketing website."
+published: true
+short:     
+title:     Takes
+class:     takes
+website:   http://www.takes.com/

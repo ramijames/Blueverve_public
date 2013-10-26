@@ -1,0 +1,70 @@
+---
+layout: page
+title: Portfolio
+sitemap:
+    priority: 1
+    changefreq: monthly
+    lastmod: 2013-10-17T12:00:00-05:00
+---
+
+
+{% include head.html %}
+
+<header>
+  <nav>
+    <a href="/" class="mainlogo home"><span>Blueverve</span></a>
+    <ul>
+      <li><a href="/"><span>Home</span></a></li>
+      <li><a href="/approach/"><span>Our Approach</span></a></li>
+      <li><a href="/process/"><span>Process</span></a></li>
+      <li><a href="/portfolio/" class="selected"><span>Portfolio</span></a></li>
+      <li><a href="/team/"><span>Team</span></a></li>
+      <li><a href="/blog/"><span>Blog</span></a></li>
+      <li class="contact"><a href="/contact/"><span>Contact Us</span></a></li>
+    </ul>
+  </nav>
+</header>
+
+  <div class="innersuperband projects">
+    <div class="container">
+
+      <div class="sixteen columns sellband">
+        <h1 class="green">Portfolio</h1>
+        <h2>We are immensely proud of the <span class="blue">work which we have accomplished</span>. As they say, "The proof is in the pudding." Man, is our pudding tasty!</h2>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="innerband">
+    <div class="container">
+
+      {% for project in page.projects %}
+
+        <div class="eight columns">
+          <a href="/portfolio/{{ project[0] }}" class="projectbox {{ project[1].class }}">
+            <div class="caption">{{ project[1].title }}</div>
+          </a>
+        </div>
+        <!--div class="eleven columns offset-by-one ">
+          <h3 class="blue">{{ project[1].title }}</h3>
+          <p>{{ project[1].description }}</p>
+          <a href="/portfolio/{{ project[0] }}">View this Project</a>
+        </div>
+        <hr-->
+
+      {% endfor %}
+
+      <div class="sixteen columns">
+      <h3>Creating a great product means knowing your business inside and out, being able to offer better technology than what’s out there, and paying really close attention to people’s behavior.  We build great products by matching our resources to your resources to create the perfect balance of these key success factors.  </h3>
+      </div>
+
+    </div>
+  </div>
+
+
+{% include footer.html %}
+
+
+
+

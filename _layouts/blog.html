@@ -1,0 +1,61 @@
+---
+layout: blog
+title: Blue Verve | Blog
+sitemap:
+    priority: 1
+    changefreq: monthly
+    lastmod: 2013-10-17T12:00:00-05:00
+---
+
+{% include head.html %}
+
+<header>
+  <nav>
+    <a href="/" class="mainlogo home"><span>Blueverve</span></a>
+    <ul>
+      <li><a href="/"><span>Home</span></a></li>
+      <li><a href="/approach/"><span>Our Approach</span></a></li>
+      <li><a href="/process/"><span>Process</span></a></li>
+      <li><a href="/portfolio/"><span>Portfolio</span></a></li>
+      <li><a href="/team/"><span>Team</span></a></li>
+      <li><a href="/blog/" class="selected"><span>Blog</span></a></li>
+      <li class="contact"><a href="/contact/"><span>Contact Us</span></a></li>
+    </ul>
+  </nav>
+</header>
+
+  <div class="innersuperband projects">
+    <div class="container">
+
+      <div class="sixteen columns sellband">
+        <h1 class="green">Blog</h1>
+        <h2>"Be still when you have nothing to say; when genuine passion moves you, say what you've got to say, and say it hot." - D. H. Lawrence</h2>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="innerband">
+    <div class="container">
+
+      {% for post in site.posts %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% if year != nyear %}
+          <h2>{{ post.date | date: '%Y' }}</h2>
+        {% endif %}
+        <ul>
+          <li>
+            <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+          </li>
+        </ul>
+      {% endfor %}
+      
+
+    </div>
+  </div>
+
+
+{% include learnmore.html %}
+
+{% include footer.html %}

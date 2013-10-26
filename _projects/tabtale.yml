@@ -1,0 +1,26 @@
+description:
+  "Tabtale is one of the world's top app producers for iOS, Android and Windows tablets. We created their revamped website on the Wordpress platform with custom plugins and an easy to use custom back end interface solution."
+endorsements:
+-
+  body:
+
+  from: 
+  role: 
+image: 
+  url: /images/tabtale_work.jpg
+  title: Tabtale Website Design
+  alt: Tabtale Website Design
+layout: project
+project_description:
+  "<p>Tabtale is one of the world's top app producers for iOS, Android and Windows tablets. We created their revamped website on the Wordpress platform with custom plugins and an easy to use custom back end interface solution."
+project_problem:
+  "<p>Tabtale's website was poorly designed and difficult to keep up to date."
+project_solution:
+  "<p>We built a visually beautiful and flexible design and implemented it in Wordpress. This design had some unique features which allowed the user to upload content to the Apple App Store and our plugin would pull content into the website in an automatic fashion, allowing the client to keep their site up to date and content rich.
+  <p>The website is completely responsive, unique and analytics show it to be a vast improvment in conversion."
+
+published: true
+short:     
+title:     Tabtale
+class:     tabtale
+website:   http://www.tabtale.com/
