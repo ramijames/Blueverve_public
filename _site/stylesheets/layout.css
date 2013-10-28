@@ -564,6 +564,10 @@
       box-shadow: 0px 2px 1px rgba(0,0,0,0.45);
     }
 
+    .projectbox .caption {
+      display:none;
+    }
+
     .projectimage img { 
       width:100%; margin-top:40px;
       border-radius: 6px;
